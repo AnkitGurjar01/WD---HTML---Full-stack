@@ -1,0 +1,462 @@
+*{
+    margin: 0 ;
+    padding: 0;
+    box-sizing: border-box;
+}
+.contioner{
+    width: 1250px;
+    margin: 0 auto;
+}
+.row{
+    display: flex;
+}
+.jcs{
+    justify-content: space-between;
+}
+.ali{
+    align-items: center;
+}
+.po-re{
+    position: relative;
+}
+.po-ab{
+    position: absolute;
+}
+.navbar{
+    justify-content:space-evenly;
+}
+.col-30{
+    width: 30%;
+}
+.col-50{
+    width: 50%;
+}
+.col-45{
+    width: 45%;
+}
+.sec-1{
+    background-image: url(./img/Place\ Your\ Design\ Here\ \(Double\ Click\ to\ Edit\)\ \(24\).png);
+    padding:50px 0 100px 0;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.menu ul li{
+    /* margin:0 50px ; */
+    display: inline-block;
+    padding: 0 30px;
+    border-left:2px rgb(255, 255, 255) solid ;
+}
+.c {
+    border-right: 2px solid rgb(255, 255, 255);
+}
+.menu ul li a{
+    text-decoration: none;
+    color: white;
+    font-size: 30px;
+    padding: 0 30px 0 30px;
+}
+.sec-1 i{
+    font-size: 35px;
+    color: white;
+    padding: 0 30px;
+}
+.sec-1 button{
+    border: none;
+    background-color: transparent;
+}
+.sec-1-text{
+    text-align: center;
+    padding: 70px 0 100px 0;
+}
+.sec-1-text h1{
+    color: white;
+    font-size: 70px;
+    letter-spacing: 40px;
+}
+.sec-1-text h2{
+    text-align: center;
+    color: #49c9d4;
+    margin: 100px 0 0 0;
+    font-size: 50px;
+}
+.sec-1-text p{
+    width: 50%;
+    margin: 20px auto;
+    font-size: 20px;
+    color: #49c9d4;
+}
+.btn-1 {
+    background-color: white;
+    width: 10%;
+    margin: 10px auto;
+    padding: 10px 0;
+}
+.btn-1 button{
+    font-size: 20px;
+    color: #3f505a;
+}
+.sec-2 h1{
+    
+     padding: 100px 0 80px 0;
+     font-size: 100px;
+     text-align: center;
+}
+.h-1{
+    margin: 0 0 50px 0;
+}
+.img-1{
+    top: -350px;
+    left: -80px;
+    z-index: -1;
+}
+.img-1 img{
+    width: 100%;
+}
+.cart{
+    width: 80%;
+    margin: 0 auto;
+}
+.cart p{
+   margin: 0 50px;
+   font-size: 30px;
+}
+.p-1{
+    width: 100%;
+    text-align: end;
+}
+.btn{
+    width: 90%;
+    text-align: end;
+    margin: 20px 0;
+}
+.btn button{
+    width: 40%;
+    font-size: 25px;
+    background-color:  #3f505a;
+    border: none;
+    padding: 10px 0;
+    color: white;
+}
+.img-2{
+    z-index: -1;
+}
+.img-2 img{
+    width: 100%;
+}
+.sec-3{
+    padding: 100px 0 0 0 ;
+}
+.sec-3-text{
+    padding: 100px 0 0 0;
+    margin: 100px 0 0 0;
+}
+.text-1{
+    padding: 100px 0;
+}
+.btn-2{
+    width:40%;
+    margin: 0 0 0 30px;  
+}
+.btn-2 button{
+    background-color: #49c9d4;
+    border-radius: 10px;
+    border: none;
+    width: 100%;
+    padding: 7px ;
+    font-size: 20px;
+    color: #3f505a;
+}
+.h-2 h1{
+    margin: 100px 0 0 0;
+}
+.text-1 h1{
+    text-align: center;
+    font-size: 60px;
+    width: 70%;
+    color: #49c9d4;
+}
+.text-1 p{
+    font-size: 20px;
+    color: #fff;
+    width: 75%;
+    margin: 10px  0 20px 0;
+}
+.text-2 h1{
+    text-align: center;
+    font-size: 60px;
+    width: 70%;
+    color: #49c9d4;
+}
+.text-2 p{
+    font-size: 20px;
+    color: #fff;
+    width: 75%;
+    margin: 10px  0 20px 0;
+}
+.img-4{ 
+    text-align: center;
+    padding:50px 0 0 0;
+    margin: 100px 0 0 0;
+    width:70%;
+}
+.sec-4{
+    padding: 100px 0 0 0;
+}
+.sec-4 h1{
+    text-align: center;
+    width: 60%;
+    font-size: 60px;
+    border: 5px solid #3f505a;
+    margin: 0 auto;
+    color: #3f505a;
+}
+.h-3{
+    margin: 100px 0 0 0;
+}
+.sec-4-text{
+    padding: 50px 0 0 0;
+}
+.sec-4-text p{
+    width: 90%;
+    word-spacing: 10px;
+    font-size: 28px;
+    margin: 0 0 50px 0;
+}
+.img-5{
+    text-align: center;
+}
+.img-5 img{
+    width: 70%;
+}
+.sec-5{
+    padding: 100px 0 0 0;
+}
+.img-6 img{
+    display: block;
+    width: 100%;
+}
+.l{
+    background-color: #3f505a;
+    padding: 100px 0 ;
+    margin: 0 0 0 50px;
+}
+.sec-5-text p{
+    width: 60%;
+    font-size: 30px;
+    text-align: center;
+    margin: 26px auto;
+    color: #fff;
+}
+.a{
+    width: 80%;
+    justify-content: end;
+}
+.a img{
+    width: 100%;
+}
+.l h2{
+    color: white;
+    margin: 0 20px ;
+}
+.sec-6{
+    padding: 100px 0 ;
+}
+.h-4 {
+    background-color: #3f505a;
+    text-align: center;
+    width: 30%;
+    margin: 0 auto;
+    color: white;
+    font-size: 50px;
+}
+.h-5{
+    background-color: white;
+    text-align: center;
+    width: 50%;
+    margin: 10px auto;
+    font-size: 40px;
+}
+.o{
+    margin: 10px 0;
+    justify-content: center;
+}
+.o h3{
+    font-size: 40px;
+    margin: 10px 20px;
+}
+.btn-3{
+    text-align: center;
+}
+.btn-3 button{
+    width: 15%;
+    padding: 10px 0;
+    font-size: 18px;
+    border: none;
+    background-color: #3f505a;
+}
+
+.img-7 img{
+    width: 100%;
+}
+.img-7{
+    z-index: -1;
+    top: 200px;
+}
+.sec-7 img{
+    width: 90%;
+}
+.sec-7-text{
+    padding: 70px 0 100px 0;
+}
+.sec-7-text h1{
+    font-size: 55px;
+    color: #3f505a;
+    text-align: center;
+    padding: 30px 0;
+}
+.sec-7-text p{
+    font-size: 30px;
+    padding:  20px 0 ;
+}
+.sec-8{
+    padding: 100px  0 ;
+}
+.sec-8 h1{
+    text-align: center;
+    font-size: 50px;
+    color: #49c9d4;
+}
+.sec-8-text{
+    padding: 50px 0 0 0;
+}
+.sec-8-text p{
+    width: 95%;
+    font-size: 25px;
+    padding: 30px 0;
+    color: white;
+}
+.p-3{
+    text-align: end;
+}
+.img-8{
+    z-index: -2 ;
+    top: -40px;
+}
+.img-8 img{
+    width: 100%;
+}
+.btn-4{
+    text-align: center;
+}
+.btn-4 button{
+    width: 10%;
+    padding: 10px 0;
+    background-color: #ffff;
+    color: #3f505a;
+    border: none;
+    border-radius: 20px;
+    font-size: 20px;
+}
+.img-9 img{
+    width: 100%;
+    display: block;
+}
+.img-9{
+    top: -100px;
+    z-index: -5;
+}
+.sec-9 {
+    padding: 0 0 100px 0;
+}
+.sec-9-text {
+    padding: 30px 0;
+    justify-content:end;
+    width: 70%;
+    font-size: 30px;
+}
+.sec-9-text-1 {
+    justify-content:end;
+    width: 70%;
+    font-size: 30px;
+}
+.sec-9-text h1{
+    margin: 0 35px;
+}
+.sec-9-text-1 h1{
+    margin: 0 30px;
+}
+.sec-9-2{
+    width: 85%;
+    justify-content: end;
+}
+.sec-9-2 h3{
+    font-size: 50px;
+    padding: 20px 0;
+    border-bottom: 5px solid #3f505a;
+    color: #3f505a;
+}
+.sec-9-1{
+    text-align: center;
+    padding: 100px 0 0 0;
+    margin: 50px 0 0 0;
+    color: white;
+}
+.sec-9-1 p{
+    margin: 20px auto;
+    width: 70%;
+}
+.sec-9-1 i{
+    padding: 10px 10px;
+    font-size: 25px;
+}
+@property --a { 
+    syntax: "<angle>";
+    initial-value: 0deg; 
+    inherits: true;
+  }
+  @property --d { 
+    syntax: "<percentage>";
+    initial-value: 0%; 
+    inherits: true;
+  }
+.img-10 img {
+    --b: 10px; /* control the border thickness */
+    --g: 20px; /* control the gap */
+    
+    --d: 30%;
+    --a: 45deg;
+    --_o:50% + (var(--d) + var(--g) + var(--b));
+    --_i:50% + (var(--d) + var(--g));
+    --_f:50% + (var(--d));
+    clip-path: polygon(
+      /*  */
+      calc(var(--_o)*sin(-45deg + var(--a))) calc(var(--_o)*cos(-45deg + var(--a))),
+      calc(var(--_o)*sin( 45deg + var(--a))) calc(var(--_o)*cos( 45deg + var(--a))),
+      calc(var(--_o)*sin(135deg + var(--a))) calc(var(--_o)*cos(135deg + var(--a))),
+      calc(var(--_o)*sin(225deg + var(--a))) calc(var(--_o)*cos(225deg + var(--a))),
+      calc(var(--_o)*sin(-45deg + var(--a))) calc(var(--_o)*cos(-45deg + var(--a))),
+      /*  */
+      calc(var(--_i)*sin(-45deg + var(--a))) calc(var(--_i)*cos(-45deg + var(--a))),
+      calc(var(--_i)*sin(225deg + var(--a))) calc(var(--_i)*cos(225deg + var(--a))),
+      calc(var(--_i)*sin(135deg + var(--a))) calc(var(--_i)*cos(135deg + var(--a))),
+      calc(var(--_i)*sin( 45deg + var(--a))) calc(var(--_i)*cos( 45deg + var(--a))),
+      calc(var(--_i)*sin(-45deg + var(--a))) calc(var(--_i)*cos(-45deg + var(--a))),
+      /*  */
+      calc(var(--_f)*sin(-45deg + var(--a))) calc(var(--_f)*cos(-45deg + var(--a))),
+      calc(var(--_f)*sin( 45deg + var(--a))) calc(var(--_f)*cos( 45deg + var(--a))),
+      calc(var(--_f)*sin(135deg + var(--a))) calc(var(--_f)*cos(135deg + var(--a))),
+      calc(var(--_f)*sin(225deg + var(--a))) calc(var(--_f)*cos(225deg + var(--a))),
+      calc(var(--_f)*sin(-45deg + var(--a))) calc(var(--_f)*cos(-45deg + var(--a)))
+    );
+    outline: 166px solid #2c2c2c; /* color here */
+    outline-offset: 2px; /* a small value to avoid a visual glitch */
+    cursor: pointer;
+    transition: --d .3s,--a .2s .2s;
+  }
+  img:hover {
+    --a: 0deg;
+    --d: 71%;
+    transition: --a .3s,--d .2s .2s;
+  }
+  
